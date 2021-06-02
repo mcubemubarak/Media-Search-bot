@@ -40,6 +40,9 @@ Watch Tutorial - https://youtu.be/OiN1XwWsQlA
 First Join our channel to use this bot
 Channel - @MCubeMediaOfficial
 """
+HELP_MSG = """
+**Watch Tutorial** - https://youtu.be/OiN1XwWsQlA
+"""
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
 INVITE_MSG = environ.get('INVITE_MSG', 'Please join @.... to use this bot')
