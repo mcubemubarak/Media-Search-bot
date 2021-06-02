@@ -30,6 +30,15 @@ DATABASE_NAME = environ['DATABASE_NAME']
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
+HELP_MSG = """
+**Watch Tutorial** - https://youtu.be/OiN1XwWsQlA
+"""
+
+SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
+INVITE_MSG = environ.get('INVITE_MSG', 'Please join @.... to use this bot')
+
+
+# Messages
 START_MSG = """
 **Hi,I'm Media Search bot By MCubeMedia**
 
@@ -39,9 +48,6 @@ More Details /help
 
 First Join our channel to use this bot
 Channel - @MCubeMediaOfficial
-"""
-HELP_MSG = """
-**Watch Tutorial** - https://youtu.be/OiN1XwWsQlA
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
