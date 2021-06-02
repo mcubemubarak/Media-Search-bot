@@ -22,7 +22,7 @@ async def start(bot, message):
         await message.reply(START_MSG, reply_markup=reply_markup)
 
 @Client.on_message(filters.command('help'))
-async def start(bot, message):
+async def help(bot, message):
     """Help command handler"""
     if len(message.command) > 1 and message.command[1] == 'subscribe':
         await message.reply(INVITE_MSG)
