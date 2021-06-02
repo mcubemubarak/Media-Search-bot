@@ -35,7 +35,7 @@ START_MSG = """
 
 Here you can search files in inline mode. Just press following buttons and start searching.
 
-Watch Tutorial - https://youtu.be/OiN1XwWsQlA
+More Details /help
 
 First Join our channel to use this bot
 Channel - @MCubeMediaOfficial
