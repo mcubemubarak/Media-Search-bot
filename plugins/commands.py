@@ -17,6 +17,8 @@ async def start(bot, message):
         buttons = [[
             InlineKeyboardButton('Search Here', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Go Inline', switch_inline_query=''),
+        ]],[
+            InlineKeyboardButton('Channel', url=f'https://t.me/mcubemediaofficial')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(START_MSG, reply_markup=reply_markup)
@@ -30,6 +32,8 @@ async def help(bot, message):
         buttons = [[
             InlineKeyboardButton('Search Here', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Go Inline', switch_inline_query=''),
+        ]],[
+            InlineKeyboardButton('Channel', url=f'https://t.me/mcubemediaofficial')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(HELP_MSG, reply_markup=reply_markup)
